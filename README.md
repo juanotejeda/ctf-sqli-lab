@@ -59,13 +59,13 @@ Y accede por `http://localhost:8085`
 ## Créditos
 - Desarrollado por **Juano.exe** para la comunidad #RemoteExecution
 - Contacto: [juanotejeda@gmail.com](mailto:juanotejeda@gmail.com)
-- Grettings: 	
-  		HielaSangre; NinjaThor; Alejandro Hatz; Pombe; Pipo
+- Grettings: HielaSangre - NinjaThor - Alejandro Hatz - Pombe - Pipo
 
 ## Uso y Licencia
 
 - **Exclusivo para formación, docencia y pruebas controladas de ciberseguridad.**
 - **Prohibido el uso en sistemas de terceros sin autorización.**
+
 
 
 ¡Mucha suerte y Happy Hunting!

@@ -1,3 +1,21 @@
+<?php
+// Manejo global de errores y excepciones 
+set_exception_handler(function($e) {
+    include 'error500.php';
+    exit;
+});
+set_error_handler(function($errno, $errstr, $errfile, $errline) {
+    include 'error500.php';
+    exit;
+});
+register_shutdown_function(function () {
+    $error = error_get_last();
+    if ($error && in_array($error['type'], [E_ERROR, E_CORE_ERROR, E_COMPILE_ERROR, E_PARSE])) {
+        include 'error500.php';
+        exit;
+    }
+});
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

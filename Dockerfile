@@ -19,6 +19,9 @@ RUN rm /var/www/html/index.html
 COPY index.php /var/www/html/
 COPY login.php /var/www/html/
 COPY about-sqli.php /var/www/html/
+COPY error404.php /var/www/html/
+COPY error500.php /var/www/html/
+COPY .htaccess /var/www/html/
 
 
 # Copia el script de la base de datos y el de inicio

@@ -60,11 +60,7 @@ Y accede por `http://localhost:8085`
 - Desarrollado por **Juano.exe** para la comunidad #RemoteExecution
 - Contacto: [juanotejeda@gmail.com](mailto:juanotejeda@gmail.com)
 - Grettings: 	
-  		HielaSangre
-		NinjaThor
-              	Alejandro Hatz
-              	Pombe
-  		Pipo
+  		HielaSangre; NinjaThor; Alejandro Hatz; Pombe: Pipo
 
 ## Uso y Licencia
 

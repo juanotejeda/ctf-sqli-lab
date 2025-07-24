@@ -18,7 +18,7 @@ RUN rm /var/www/html/index.html
 # Copia los archivos de la aplicación web y el logo
 COPY index.php /var/www/html/
 COPY login.php /var/www/html/
-COPY image.jpg /var/www/html/
+COPY about-sqli.php /var/www/html/
 
 # Copia el script de la base de datos y el de inicio
 COPY database.sql /tmp/

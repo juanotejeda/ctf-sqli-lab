@@ -80,7 +80,7 @@
         @keyframes glitch {0%,100%{transform:translate(0);}20%{transform:translate(-2px,2px);}40%{transform:translate(-2px,-2px);}60%{transform:translate(2px,2px);}80%{transform:translate(2px,-2px);}}
         .pulse {animation:pulse 2s infinite;}
         @keyframes pulse {0%{box-shadow:0 0 0 0 rgba(0,255,136,0.7);}70%{box-shadow:0 0 0 10px rgba(0,255,136,0);}100%{box-shadow:0 0 0 0 rgba(0,255,136,0);}}
-		.help-link {
+    .help-link {
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
@@ -108,6 +108,7 @@
     text-decoration: none;
 }
 
+    
     </style>
 </head>
 <body>
@@ -152,11 +153,7 @@
                     <div class="challenge-description">
                         <p>Bienvenido al laboratorio de ciberseguridad de <strong>Remote Execution</strong>. Este reto está diseñado para poner a prueba tus habilidades en la identificación y explotación de vulnerabilidades de inyección SQL.</p>
                         <p>En este desafío encontrarás un sistema de autenticación vulnerable que simula aplicaciones web del mundo real con fallas de seguridad comunes.</p>
-                        <p></p>
-						<a href="about-sqli.php" class="help-link">
-						<i class="fas fa-question-circle"></i>
-							¿Necesitas ayuda? Haz click aquí
-						</a>                    
+						<p><a href="about-sqli.php" class="help-link"><i class="fas fa-question-circle"></i>¿Necesitas ayuda? Haz click aquí</a></p>
                     </div>
                     <div class="objective-box">
                         <h3><i class="fas fa-target"></i>Objetivo del Reto</h3>

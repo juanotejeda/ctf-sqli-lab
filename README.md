@@ -62,8 +62,12 @@ Y accede por `http://localhost:8085`
 - Grettings: 	
       				HielaSangre
 			      	NinjaThor
+<<<<<<< HEAD
               		Alejandro Hatz
               		Pombe
+=======
+              Alejandro Hatz
+>>>>>>> d97a5f1c3c6e167881fa502e58437b7f671f9260
 
 ## Uso y Licencia
 
@@ -71,5 +75,11 @@ Y accede por `http://localhost:8085`
 - **Prohibido el uso en sistemas de terceros sin autorización.**
 
 
+<<<<<<< HEAD
+=======
+
+¡Mucha suerte y Happy Hunting!
+
+>>>>>>> d97a5f1c3c6e167881fa502e58437b7f671f9260
 
 ¡Mucha suerte y Happy Hunting!
